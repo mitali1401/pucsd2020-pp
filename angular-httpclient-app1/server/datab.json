@@ -1,0 +1,53 @@
+{
+  "employees": [
+    {
+      "name": "Mitali",
+      "Lname": "Narkhede",
+      "email": "mn14@gmail.com",
+      "phone": "8856002176",
+      "id": 1
+    },
+    {
+      "name": "Kunal",
+      "Lname": "deore",
+      "email": "kd@gmail.com",
+      "phone": "8765638292",
+      "id": 2
+    },
+    {
+      "name": "shara",
+      "Lname": "patil",
+      "email": "shara@gmail.com",
+      "phone": "65783456345",
+      "id": 3
+    },
+    {
+      "name": "sneha",
+      "Lname": "shete",
+      "email": "ss@gmail.com",
+      "phone": "6534756345938",
+      "id": 4
+    },
+    {
+      "name": "sammy",
+      "Lname": "bhole",
+      "email": "sb@gmail.com",
+      "phone": "658743634",
+      "id": 5
+    },
+    {
+      "name": "sumedha",
+      "Lname": "jagtap",
+      "email": "sj@gmail.com",
+      "phone": "698668934",
+      "id": 6
+    },
+    {
+      "name": "akanksha",
+      "Lname": "bhole",
+      "email": "ab@gmail.com",
+      "phone": "655643",
+      "id": 7
+    }
+  ]
+}

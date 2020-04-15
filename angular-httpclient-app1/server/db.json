@@ -1,0 +1,97 @@
+{
+  "user": [
+    {
+      "name": "Mitali",
+      "Lname": "Narkhede",
+      "email": "mn1401@gmail.com",
+      "phone": "8856002176",
+      "id": 1
+    },
+    {
+      "name": "Kunal",
+      "Lname": "deore",
+      "email": "kd@gmail.com",
+      "phone": "8765638292",
+      "id": 2
+    },
+    {
+      "name": "sharavri",
+      "Lname": "patil",
+      "email": "shara@gmail.com",
+      "phone": "65783456345",
+      "id": 3
+    },
+    {
+      "name": "sneha",
+      "Lname": "shete",
+      "email": "ss@gmail.com",
+      "phone": "6534756345938",
+      "id": 4
+    },
+    {
+      "name": "sammy",
+      "Lname": "bhole",
+      "email": "sb@gmail.com",
+      "phone": "658743634",
+      "id": 5
+    },
+    {
+      "name": "sumedha",
+      "Lname": "jagtap",
+      "email": "sj06@gmail.com",
+      "phone": "698668934",
+      "id": 6
+    },
+    {
+      "name": "akanksha",
+      "Lname": "bhole",
+      "email": "ab@gmail.com",
+      "phone": "655643",
+      "id": 7
+    },
+    {
+      "name": "kiran",
+      "Lname": "deore",
+      "email": "k@gmail.com",
+      "phone": "65834765",
+      "id": 8
+    },
+    {
+      "name": "mansi",
+      "Lname": "deore",
+      "email": "mansi@gmail.com",
+      "phone": "97923479384",
+      "id": 9
+    },
+    {
+      "name": "prita",
+      "Lname": "luthra",
+      "email": "pl@gmail.com",
+      "phone": "57346534",
+      "id": 10
+    },
+    {
+      "name": "vishakka",
+      "Lname": "varade",
+      "email": "v@gmail.com",
+      "phone": "5658787",
+      "id": 11
+    },
+    {
+      "name": "shubham",
+      "Lname": "natekar",
+      "email": "sn@gmail.com",
+      "phone": "6587346543",
+      "password": "shubham1",
+      "id": 13
+    },
+    {
+      "name": "rahul",
+      "Lname": "chavan",
+      "email": "rc@gmail.com",
+      "phone": "8856342123",
+      "password": "rahul",
+      "id": 14
+    }
+  ]
+}

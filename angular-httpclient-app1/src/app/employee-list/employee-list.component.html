@@ -1,0 +1,55 @@
+<div class="no-data text-center" *ngIf="Employee.length == 0">
+  <p>There is no user added yet...!! add User by clicking Add User...!!</p>
+</div>
+<div class="row btnopr">
+
+  <button class="btn btn-success btn-md   btnAddUser" routerLink="/create-employee">Add User</button>
+
+  <button class="btn btn-success btn-md btnsearchUser " routerLink="/search-employee">Search User
+  </button>
+
+</div>
+<!-- Employees list table, it hides when there is no employee -->
+<div *ngIf="Employee.length !== 0">
+  <div class=" container search">
+  <div class=" table-wrapper-scroll-y my-custom-scrollbar table">
+   
+<div class="border">
+      <table class="table table-bordered table-striped mb-0">
+        <thead>
+          <tr>
+            <th scope="col">User Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Action</th>
+            <th scope="col">Action</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let Employee of Employee">
+            <td>{{Employee.id}}</td>
+            <td>{{Employee.name}}</td>
+            <td>{{Employee.Lname}}</td>
+            <td>{{Employee.email}}</td>
+            <td>{{Employee.phone}}</td>
+
+            <td>
+              <button class="edit btn-warning" routerLink="/employee-edit/{{Employee.id}}">Edit</button>
+
+            </td>
+
+            <td>
+              <button class="delete btn-danger" (click)=" deleteEmployee(Employee.id)">Delete</button>
+
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+    </div>
+  </div>
+</div>

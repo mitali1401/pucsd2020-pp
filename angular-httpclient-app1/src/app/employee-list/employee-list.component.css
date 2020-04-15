@@ -1,0 +1,65 @@
+.my-custom-scrollbar {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    font-family: serif;
+    font-size: 18px;
+    }
+    h2{
+        text-align: center;
+        font-family: serif;
+        color: beige;
+    }
+    .search{
+        
+    
+        margin-right: 59px;;
+  
+    margin-top: 15px;
+    overflow-x: hidden;
+    }
+    .addUsr{
+        padding: 9px 0px;
+        
+    }
+    td{
+        color:#dee2e6;
+        font-size: 20px;
+        text-align: center;
+      }
+    th{
+        text-align: center;
+    }
+    thead{
+        font-size: 20px;
+    }
+    .btnAddUser{
+        margin-right: 18px;
+    }
+    table{
+        width: 100%;
+    padding-top: 16px;
+    /* max-width: 119%;
+    */
+    }
+    .btnopr{
+        justify-content: flex-end;
+        padding-top: 20px;
+        margin-right: 73px;
+         
+    }
+    .table td, .table th {
+        padding: 6px 19px !important;
+    }  
+
+    .no-data{
+        color: beige;
+        font-size: 22px;
+        margin-top: 37px;
+        margin-right: 114px;
+    }
+    
+    

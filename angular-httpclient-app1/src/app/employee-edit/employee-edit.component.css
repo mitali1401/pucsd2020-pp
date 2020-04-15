@@ -1,0 +1,14 @@
+.close{
+    color:red;
+    opacity: initial;
+}
+.update{
+    padding: 41px 80px 82px 97px;
+    background-color:#004eff17;
+    margin-left: 195px;
+}
+body{
+    font-family: serif;
+    font-size: 18px;
+   
+}

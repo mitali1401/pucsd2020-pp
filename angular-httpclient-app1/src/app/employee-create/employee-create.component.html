@@ -1,0 +1,36 @@
+
+
+<div class="col-md-12">
+    <div class="col-md-8 Create">
+        <div class="addUsr">
+            <button class="btn btn-outline-warning close " routerLink="/employees-list"><svg class="bi bi-x-square-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm9.854 4.854a.5.5 0 00-.708-.708L8 7.293 4.854 4.146a.5.5 0 10-.708.708L7.293 8l-3.147 3.146a.5.5 0 00.708.708L8 8.707l3.146 3.147a.5.5 0 00.708-.708L8.707 8l3.147-3.146z" clip-rule="evenodd"/>
+            </svg></button>
+          </div>
+      <h3 class="mb-3 text-center"><u>Add User</u></h3>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="employeeDetails.name" class="form-control" placeholder="First Name">
+      </div>
+      <div class="form-group">
+          <input type="text" [(ngModel)]="employeeDetails.Lname" class="form-control" placeholder="Last Name">
+        </div>
+      <div class="form-group">
+        <input type="text" [(ngModel)]="employeeDetails.email" class="form-control" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="password" [(ngModel)]="employeeDetails.password" class="form-control" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <input type="text" [(ngModel)]="employeeDetails.phone" class="form-control" placeholder="Phone">
+      </div>
+      <div class="row">
+      <div class="col">
+          <button class="btn btn-danger btn-md btn-block" (click)="resetEmployee()">Reset User</button>
+        </div>
+      <div class="col">
+        <button class="btn btn-success btn-md btn-block" (click)="addEmployee()">Create User</button>
+      </div>
+    </div>
+    </div>
+  </div>
