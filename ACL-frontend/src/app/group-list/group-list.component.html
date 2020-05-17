@@ -1,0 +1,41 @@
+<p>group-list works!</p>
+<div>
+    <div class=" container search">
+    <div class=" table-wrapper-scroll-y my-custom-scrollbar table">
+     
+  <div class="border">
+        <table class="table table-bordered table-striped mb-0">
+          <thead>
+            <tr>
+              <th scope="col"> Id</th>
+              <th scope="col">Group Name</th>
+              <th scope="col">group info</th>
+             
+  
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let group of group">
+  
+              
+              <td>{{group.id}}</td>
+              <td>{{group.group_name}}</td>
+              <td>{{group.group_info}}</td>
+             
+              <!-- <td>
+                <button class="edit btn-warning" routerLink="/employee-edit/{{Employee.id}}">Edit</button>
+  
+              </td>
+  
+              <td>
+                <button class="delete btn-danger" (click)=" deleteEmployee(Employee.id)">Delete</button>
+  
+              </td> -->
+            </tr>
+          </tbody>
+  
+        </table>
+      </div>
+      </div>
+    </div>
+  </div>
