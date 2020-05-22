@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-sm ">
+
+  <app-header-component class="w-100"></app-header-component>
+</nav>
+
+<div class="row m-0 bgimg">
+  <div class="col-12 col-sm-12 col-md-3 col-lg-3 border-bottom-1">
+    <app-side-component></app-side-component>
+
+  </div>
+  <!-- <div class="col-12 col-sm-12 col-md-8 col-lg-8 Create">
+    <button class="btn btn-outline-warning close " routerLink="/homepage"><svg class="bi bi-x-square-fill" width="1em"
+        height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2zm9.854 4.854a.5.5 0 00-.708-.708L8 7.293 4.854 4.146a.5.5 0 10-.708.708L7.293 8l-3.147 3.146a.5.5 0 00.708.708L8 8.707l3.146 3.147a.5.5 0 00.708-.708L8.707 8l3.147-3.146z"
+          clip-rule="evenodd" />
+      </svg></button>
+  
+  <div class=" table-wrapper-scroll-y my-custom-scrollbar table">
+
+    <div class="border">
+      <table class="table table-bordered table-striped mb-0">
+        <thead>
+          <tr>
+            <th scope="col"> Id</th>
+            <th scope="col">Group Name</th>
+            <th scope="col">group info</th>
+
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let group of group">
+
+
+            <td>{{group.id}}</td>
+            <td>{{group.group_name}}</td>
+            <td>{{group.group_info}}</td>
+
+           
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div> -->
+<div class="ng-autocomplete">
+  
+  <ng-autocomplete [data]="data" [searchKeyword]="keyword" (selected)='selectEvent($event)'
+      (inputChanged)='onChangeSearch($event)' (inputFocused)='onFocused($event)' [itemTemplate]="itemTemplate"
+      [notFoundTemplate]="notFoundTemplate">
+  </ng-autocomplete>
+
+  <ng-template #itemTemplate let-item>
+      <a>{{group}}</a>
+  </ng-template>
+
+  <ng-template #notFoundTemplate let-notFound>
+      <div [innerHTML]="notFound"></div>
+  </ng-template>
+</div>
+</div>
